@@ -34,10 +34,10 @@ docker_dash_sh() { docker__test_sh "sh" "ubuntu:18.04"; }
 docker_bb_sh() { docker__test_sh "sh" "alpine:3.8"; }
 docker_bb_ash() { docker__test_sh "ash" "alpine:3.8"; }
 
-docker_ksh() { docker__test_sh "ksh" "bvberkum/heirloom-sh"; }
-docker_zsh() { docker__test_sh "zsh" "bvberkum/heirloom-sh"; }
-docker_jsh() { docker__test_sh "jsh" "bvberkum/heirloom-sh"; }
-docker_heirloom_sh() { docker__test_sh "sh" "bvberkum/heirloom-sh"; }
+docker_ksh() { docker__test_sh "ksh" "dotmpe/heirloom-sh"; }
+docker_zsh() { docker__test_sh "zsh" "dotmpe/heirloom-sh"; }
+docker_jsh() { docker__test_sh "jsh" "dotmpe/heirloom-sh"; }
+docker_heirloom_sh() { docker__test_sh "sh" "dotmpe/heirloom-sh"; }
 
 every()
 {
